@@ -1,0 +1,36 @@
+button {
+    font-size: 24px;
+    position: fixed;
+    margin: 2%;
+    padding: 1%;
+    background-color: transparent;
+    border-width: 2px;
+    color: black;
+    /* opacity: 0.1; */
+}
+a {
+    color: black;
+}
+.post {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.post p {
+    margin: 3%;
+}
+.post-title {
+    padding: 2%;
+    font-size: 28px;
+}
+
+.post-image {
+    width: 96%;
+    padding: 2%;
+}
+.post-content {
+    padding: 2%;
+    font-size: 24px;
+}

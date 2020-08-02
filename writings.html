@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <meta name = "viewport" content = "width = device-width, 
+        initial-scale = 1, user-scalable = no"/>
+        <title> Personal Website </title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <div id = "nav-bar-section">
+            <div class = "toggle">
+                <i class = "fa fa-bars menu" aira-hidden = "true"></i>
+            </div>
+            <ul class = "nav">
+                <li class = 'tab'>
+                    <a href = "index.html">HOME</a>
+                </li>
+                <li class = 'tab'>
+                    <a href = "about.html">ABOUT</a>
+                </li>
+                <li class = 'tab'>
+                    <a href= "projects.html">PROJECTS</a>
+                </li>
+                <li class = 'tab'>
+                    <a href = "writings.html">STORIES</a>
+                </li>
+            </ul>
+        </div>
+        <div class = 'page-title'>
+            <h1> Stories </h1>
+            <!-- <hr> -->
+        </div>
+        <div class = "writing-container"> 
+            <div class = "writing"> 
+                <a href = "writing-morning.html" style="text-decoration:none;">
+                <img class = 'writing-pic' src = 'images/morningsun.jpg'>
+                <div class = 'writing-content'>
+                    <div class = 'writing-description'>
+                        <h2>Good Morning</h2> 
+                        <p> Creative Writing</p>
+                    </div>
+                    <i class="fa fa-angle-right"></i>
+                </div>
+                </a>
+            </div>
+            <div class = "writing"> 
+                <img class = 'writing-pic' src = 'images/starscity.jpg'>
+                <div class = 'writing-content'>
+                    <div class = 'writing-description'>
+                        <h2>Counting Stars</h2> 
+                        <p> Creative Writing</p>
+                    </div>
+                    <i class="fa fa-angle-right"></i>
+                </div>
+            </div>
+            <div class = "writing"> 
+                <img class = 'writing-pic' src = 'images/ginkgotree.jpg'>
+                <div class = 'writing-content'>
+                    <div class = 'writing-description'>
+                        <h2>Ginkgo Tree</h2> 
+                        <p> Creative Writing</p>
+                    </div>
+                    <i class="fa fa-angle-right"></i>
+                </div>
+            </div>
+        </div>
+        <div class = 'page-title'>
+            <h1> Books </h1>
+            <!-- <hr> -->
+        </div>
+        <div class = "writing-container"> 
+            <div class = "book-review"> 
+                <img class = 'book-cover' src = 'images/gonewiththewind.jpg'>
+                <div class = 'book-content'>
+                    <div class = 'book-description'>
+                        <h2>Gone With the Wind</h2> 
+                        <p> Review</p>
+                    </div>
+                    <i class="fa fa-angle-right"></i>
+                </div>
+            </div>
+            <div class = "book-review"> 
+                <img class = 'book-cover' src = 'images/prideandprejudice.jpg'>
+                <div class = 'book-content'>
+                    <div class = 'book-description'>
+                        <h2>Pride and Prejudice</h2> 
+                        <p> Review</p>
+                    </div>
+                    <i class="fa fa-angle-right"></i>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class = "social-media-bar">
+            <a href = "https://www.linkedin.com/in/grace-chen-451233198/"><i class="fa fa-linkedin-square"></i></a>
+            <a href = "https://www.instagram.com/gracec._/"><i class="fa fa-instagram"></i></a>
+            <a href = "https://www.facebook.com/profile.php?id=100006852139127"><i class="fa fa-facebook"></i></a>
+            <a href = "mailto: grace.chenxinyue@gmail.com"><i class="fa fa-envelope"></i></a>
+        </div>
+        <script src="main.js"></script>
+        <script src = "https://code.jquery.com/jquery-3.2.1.js"></script>
+        <script type = "text/javascript">
+            $(document).ready(function(){
+                $('.menu').click(function(){
+                    $('ul').toggleClass('active');
+                })
+            })
+        </script>
+    </body>
+</html>

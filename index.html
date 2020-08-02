@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content = "width = device-width, 
+        initial-scale = 1, user-scalable = no"/>
+        <title> Personal Website </title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id = "nav-bar-section">
+            <div class = "toggle">
+                <i class = "fa fa-bars menu" aira-hidden = "true"></i>
+            </div>
+            <ul class = "nav">
+                <li class = 'tab'>
+                    <a href = "index.html">HOME</a>
+                </li>
+                <li class = 'tab'>
+                    <a href = "about.html">ABOUT</a>
+                </li>
+                <li class = 'tab'>
+                    <a href= "projects.html">PROJECTS</a>
+                </li>
+                <li class = 'tab'>
+                    <a href = "writings.html">STORIES</a>
+                </li>
+            </ul>
+        </div>
+        <div class = 'content'>
+            <div class = 'slide' id = 'intro-screen'> 
+                <div id = 'welcome-words'>
+                    <h1> HELLO! </h1>
+                    <!-- <p> I'm Grace Chen</p> -->
+                    <!-- <p> (have a cool pic/make some fun game/animation) </p> -->
+                </div>
+            </div>
+            <div class = 'slide' id = 'introduction'>
+                
+                <div id = 'bio'>
+                    <!-- <div class = 'title'> 
+                        <h2> About Me </h2>
+                        <hr>
+                    </div> -->
+                    <p> 
+                        My name is Grace Chen and I’m a rising sophomore majoring in Computer Science at UC Berkeley. I'm currently situated in Vancouver, Canada for the duration of the COVID-19 pandemic. I’m a creative problem solver and a responsible team player who is always ready to learn!  
+                    </p>
+                    <p>   
+                        I believe that excitement in life lies in endless discovery and innovations. I enjoy coding, exploring interesting ideas, and working on <a href = "projects.html"> projects </a> that I find interesting or personally meaningful. 
+                    </p>
+                    <p> 
+                        I also love hiking, snowboarding, traveling, reading, and writing. Feel free to read some of my fun <a href = "writings.html">stories</a>!
+
+                    </p>
+                </div>
+                <div id = 'professional-pic'>
+                    <img src = "images/profile_pic.JPG" style='height: 100%; 
+                    width: 100%; object-fit: contain'>
+                    
+                </div>
+                
+            </div>
+            <div class = "social-media-bar">
+                <a href = "https://www.linkedin.com/in/grace-chen-451233198/"><i class="fa fa-linkedin-square"></i></a>
+                <a href = "https://www.instagram.com/gracec._/"><i class="fa fa-instagram"></i></a>
+                <a href = "https://www.facebook.com/profile.php?id=100006852139127"><i class="fa fa-facebook"></i></a>
+                <a href = "mailto: grace.chenxinyue@gmail.com"><i class="fa fa-envelope"></i></a>
+            </div>
+        </div>
+
+        <!-- <div class = 'footer' id = 'contact-me'>
+            <div class = 'title'>
+                <h1>Contacts</h1>
+                <hr> 
+            </div>
+            <div id = 'contacts'>
+                <icon> LinkedIn </icon>
+                <icon> Facebook </icon>
+                <icon> Instagram </icon> 
+            </div>
+        </div> -->
+        <script src="main.js"></script>
+        <script src = "https://code.jquery.com/jquery-3.2.1.js"></script>
+        <script type = "text/javascript">
+            $(document).ready(function(){
+                $('.menu').click(function(){
+                    $('ul').toggleClass('active');
+                })
+            })
+        </script>
+    </body>
+</html>

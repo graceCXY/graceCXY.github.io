@@ -2,10 +2,11 @@
     <head>
         <meta name = "viewport" content = "width = device-width, 
         initial-scale = 1, user-scalable = no"/>
-        <title> Personal Website </title>
+        <title> Grace Chen's Website</title>
         <link rel="stylesheet" href="./style.css">
         <link rel="stylesheet" 
         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
 
     <body>
@@ -31,13 +32,11 @@
 
         <div class = 'page-title'>
             <h1> Experience </h1>
-            <div class = "link-to-another">
-                <a href= "resumeToDownload.pdf"><button> Download Resume</button></a>
-            </div>
+            
         </div>
-        <!-- <div class = "link-to-another">
+        <div class = "link-to-another">
             <a href= "resumeToDownload.pdf"><button> Download Resume</button></a>
-        </div> -->
+        </div>
         <div class = "experience-container">
             <div class = 'experience'>
                 <div class = 'experience-image'> 
@@ -144,25 +143,18 @@
             <a href = "https://www.facebook.com/profile.php?id=100006852139127"><i class="fa fa-facebook"></i></a>
             <a href = "mailto: grace.chenxinyue@gmail.com"><i class="fa fa-envelope"></i></a>
         </div>
-        <!-- <div class = 'footer' id = 'contact-me'>
-            <div class = 'title'>
-                <h1>Contacts</h1>
-                <hr> 
-            </div>
-            <div id = 'contacts'>
-                <icon> LinkedIn </icon>
-                <icon> Facebook </icon>
-                <icon> Instagram </icon> 
-            </div>
-        </div> -->
         <script src="main.js"></script>
         <script src = "https://code.jquery.com/jquery-3.2.1.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script type = "text/javascript">
             $(document).ready(function(){
                 $('.menu').click(function(){
                     $('ul').toggleClass('active');
                 })
             })
+            AOS.init({
+                disable: 'mobile',
+            });
         </script>
     </body>
 </html>

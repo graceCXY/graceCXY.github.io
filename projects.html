@@ -2,7 +2,7 @@
     <head>
         <meta name = "viewport" content = "width = device-width, 
         initial-scale = 1, user-scalable = no"/>
-        <title> Personal Website </title>
+        <title> Grace Chen's Website</title>
         <link rel="stylesheet" href="./style.css">
         <link rel="stylesheet" 
         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,26 +13,18 @@
                 <i class = "fa fa-bars menu" aira-hidden = "true"></i>
             </div>
             <ul class = "nav">
-                <a href = "index.html">
-                    <li class = 'tab'>
-                        HOME
-                    </li>
-                </a>
-                <a href = "about.html">
-                    <li class = 'tab'>
-                        ABOUT
-                    </li>
-                </a>
-                <a href= "projects.html">
-                    <li class = 'tab'>
-                        PROJECTS
-                    </li>
-                </a>
-                <a href = "writings.html">
-                    <li class = 'tab'>
-                        STORIES
-                    </li>
-                </a>
+                <li class = 'tab'>
+                    <a href = "index.html">HOME</a>
+                </li>
+                <li class = 'tab'>
+                    <a href = "about.html">ABOUT</a>
+                </li>
+                <li class = 'tab'>
+                    <a href= "projects.html">PROJECTS</a>
+                </li>
+                <li class = 'tab'>
+                    <a href = "writings.html">STORIES</a>
+                </li>
             </ul>
         </div>
         <div class = 'page-title'>
@@ -57,248 +49,238 @@
         </div>
         <div id = "project-container"> 
             <div class = "project python jupyter data ml"> 
-                <div class = 'project-pic'>
-                    <img src = 'images/youtubeTitle.png'>
-                </div>
-                <div class = 'project-title'> 
-                    <h1>Youtube Title Evaluator</h1>
-                </div>
-                <div class = 'project-content'>
-                    <p>
-                        Algorithm that predicts trendability with NLP of the title. Currently a working progress.
-                    </p>
-                </div>
-                <div class = 'project-link'>
-                    <p> Working Progress </p>
-                </div>
+                <a href>
+                    <div class = 'project-pic'>
+                        <img src = 'images/youtubeTitle.png'>
+                    </div>
+                    <div class = 'project-title'> 
+                        <h1>Youtube Title Evaluator (IP) </h1>
+                    </div>
+                    <div class = 'project-content'>
+                        <p>
+                            Algorithm that predicts trendability with NLP of the title. Currently a working progress.
+                        </p>
+                    </div>
+                </a>
             </div>
             <div class = "project java software"> 
-                <img class = 'project-pic' src = 'images/gitlet-pic.png'>
-                <div class = 'project-title'> 
-                    <h1>Gitlet</h1>
-                </div>
-                <div class = 'project-content'>
-                    <p>
-                        Gitlet is a version control software that mimics many features of git: add, comment, remove, checkout, branch, and even merge. 
-                    </p>
-                </div>
-                <div class = 'project-link'>
-                    <p> <a href>Github </a></p>
-                </div>
+                <a href = "https://github.com/graceCXY/Gitlet">
+                    <img class = 'project-pic' src = 'images/gitlet-pic.png'>
+                    <div class = 'project-title'> 
+                        <h1>Gitlet</h1>
+                    </div>
+                    <div class = 'project-content'>
+                        <p>
+                            Gitlet is a version control software that mimics many features of git: add, comment, remove, checkout, branch, and even merge. 
+                        </p>
+                    </div>
+                </a>
             </div>
             <div class = "project python ml data jupyter"> 
-                <div class = 'project-pic'>
-                    <img src = 'images/computervision.png'>
-                </div>
-                <div class = 'project-title'> 
-                    <h1> AI4ALL Capstone Project</h1>
-                </div>
-                <div class = 'project-content'>
-                    <p>
-                        Algorithm that determines nutritional information based on an image of the food item.
-                    </p>
-                </div>
-                <div class = 'project-hidden'>
-                    <ul>
-                        <li> Ran prelimiary data processing and visualization</li>
-                        <li> Worked with SkLearn classifier: K-Nearest Neighbors, Naive Bayes, RandomForest, CNN</li>
-                        <li> Created google site</li>
-                    </ul>
-                </div>
-                <div class = 'project-link'>
-                    <p> <a href= "https://sites.google.com/view/compvision/application"> Google Site </a></p>
-                </div>
+                <a href= "https://sites.google.com/view/compvision/application"> 
+                    <div class = 'project-pic'>
+                        <img src = 'images/computervision.png'>
+                    </div>
+                    <div class = 'project-title'> 
+                        <h1> AI4ALL Capstone Project</h1>
+                    </div>
+                    <div class = 'project-content'>
+                        <p>
+                            Algorithm that determines nutritional information based on an image of the food item.
+                        </p>
+                    </div>
+                    <div class = 'project-hidden'>
+                        <ul>
+                            <li> Ran prelimiary data processing and visualization</li>
+                            <li> Worked with SkLearn classifier: K-Nearest Neighbors, Naive Bayes, RandomForest, CNN</li>
+                            <li> Created google site</li>
+                        </ul>
+                    </div>
+                </a>
             </div>
             <div class = "project python ml data jupyter hackathon"> 
-                <div class = 'project-pic'>
-                    <img src = 'images/mountain.png'>
-                </div>
-                <div class = 'project-title'> 
-                    <h1> Mountain (NWHacks 2020) </h1>
-                </div>
-                <div class = 'project-content'>
-                    <p>
-                        A NLP algorithm that evaluate geopolitical tension based on news articles.
-                    </p>
-                </div>
-                <div class = 'project-hidden'>
-                    <ul>
-                        <li> Python program to automate news scraping</li>
-                        <li> sent the news to Azure's text analytics tool to get sentiment</li>
-                        <li> Sentiments and news data are sent to Firebase for access to our client app (a dashboard) </li>
-                    </ul>
-                </div>
-                <div class = 'project-link'>
-                    <p> <a href= "https://devpost.com/software/mountain-3bdcki"> Link </a></p>
-                </div>
+                <a href= "https://devpost.com/software/mountain-3bdcki">
+                    <div class = 'project-pic'>
+                        <img src = 'images/mountain.png'>
+                    </div>
+                    <div class = 'project-title'> 
+                        <h1> Mountain (NWHacks 2020) </h1>
+                    </div>
+                    <div class = 'project-content'>
+                        <p>
+                            A NLP algorithm that evaluate geopolitical tension based on news articles.
+                        </p>
+                    </div>
+                    <div class = 'project-hidden'>
+                        <ul>
+                            <li> Python program to automate news scraping</li>
+                            <li> sent the news to Azure's text analytics tool to get sentiment</li>
+                            <li> Sentiments and news data are sent to Firebase for access to our client app (a dashboard) </li>
+                        </ul>
+                    </div>
+                </a>
             </div>
             <div class = "project processing game"> 
-                <div class = 'project-pic'>
-                    <img src = 'images/chess.png'>
-                </div>
-                <div class = 'project-title'> 
-                    <h1> Server-Client Chess</h1>
-                </div>
-                <div class = 'project-content'>
-                    <p>
-                        A synchronized chess game between 2 programs using listeners.  
-                    </p>
-                </div>
-                <div class = 'project-hidden'>
-                    <ul>
-                        
-                    </ul>
-                </div>
-                <div class = 'project-link'>
-                    <p> <a href= ""> Link </a></p>
-                </div>
+                <a href = "https://github.com/graceCXY/chess">
+                    <div class = 'project-pic'>
+                        <img src = 'images/chess.png'>
+                    </div>
+                    <div class = 'project-title'> 
+                        <h1> Server-Client Chess</h1>
+                    </div>
+                    <div class = 'project-content'>
+                        <p>
+                            A synchronized chess game between 2 programs using listeners.  
+                        </p>
+                    </div>
+                    <div class = 'project-hidden'>
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </a>
+                
             </div>
             <div class = "project processing game"> 
-                <div class = 'project-pic'>
-                    <img src = 'images/3Dshooter.png'>
-                </div>
-                <div class = 'project-title'> 
-                    <h1> Maze it out</h1>
-                </div>
-                <div class = 'project-content'>
-                    <p>
-                        A 3D shooter first person game built in a personalized maze. 
-                    </p>
-                </div>
-                <div class = 'project-hidden'>
-                    <ul>
-                        
-                    </ul>
-                </div>
-                <div class = 'project-link'>
-                    <p> <a href= ""> Link </a></p>
-                </div>
+                <a href = "https://github.com/graceCXY/3Dshooter">
+                    <div class = 'project-pic'>
+                        <img src = 'images/3Dshooter.png'>
+                    </div>
+                    <div class = 'project-title'> 
+                        <h1> Maze it out</h1>
+                    </div>
+                    <div class = 'project-content'>
+                        <p>
+                            A 3D shooter first person game built in a personalized maze. 
+                        </p>
+                    </div>
+                    <div class = 'project-hidden'>
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </a>
+                
             </div>
             <div class = "project processing game"> 
-                <div class = 'project-pic'>
-                    <img src = 'images/twitterGame.png'>
-                </div>
-                <div class = 'project-title'> 
-                    <h1> Twitter Game</h1>
-                </div>
-                <div class = 'project-content'>
-                    <p>
-                        Accesses the most recent posts with user input tag. The player box grows upon touching boxes smaller than themselves.
-                    </p>
-                </div>
-                <div class = 'project-hidden'>
-                    <ul>
-                        
-                    </ul>
-                </div>
-                <div class = 'project-link'>
-                    <p> <a href= ""> Link </a></p>
-                </div>
+                <a href = "https://github.com/graceCXY/twitterGame">
+                    <div class = 'project-pic'>
+                        <img src = 'images/twitterGame.png'>
+                    </div>
+                    <div class = 'project-title'> 
+                        <h1> Twitter Game</h1>
+                    </div>
+                    <div class = 'project-content'>
+                        <p>
+                            Accesses the most recent posts with user input tag. The player box grows upon touching boxes smaller than themselves.
+                        </p>
+                    </div>
+                    <div class = 'project-hidden'>
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </a>
             </div>
             <div class = "project processing"> 
-                <div class = 'project-pic'>
-                    <img src = 'images/drawingBoard.png'>
-                </div>
-                <div class = 'project-title'> 
-                    <h1> Drawing Board</h1>
-                </div>
-                <div class = 'project-content'>
-                    <p>
-                        A client-server drawing board where the client sees a synchronized drawing from the server and sends comments back. 
-                    </p>
-                </div>
-                <div class = 'project-hidden'>
-                    <ul>
-                        
-                    </ul>
-                </div>
-                <div class = 'project-link'>
-                    <p> <a href= ""> Link </a></p>
-                </div>
+                <a href = "https://github.com/graceCXY/drawingboard">
+                    <div class = 'project-pic'>
+                        <img src = 'images/drawingBoard.png'>
+                    </div>
+                    <div class = 'project-title'> 
+                        <h1> Drawing Board</h1>
+                    </div>
+                    <div class = 'project-content'>
+                        <p>
+                            A client-server drawing board where the client sees a synchronized drawing from the server and sends comments back. 
+                        </p>
+                    </div>
+                    <div class = 'project-hidden'>
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </a>
             </div>
             <div class = "project processing game"> 
-                <div class = 'project-pic'>
-                    <img src = 'images/platform.png'>
-                </div>
-                <div class = 'project-title'> 
-                    <h1> Platform Game</h1>
-                </div>
-                <div class = 'project-content'>
-                    <p>
-                        A platform game with portals, springs, collapsing bridges, and different enemies on a personalized map.
-                    </p>
-                </div>
-                <div class = 'project-hidden'>
-                    <ul>
-                        
-                    </ul>
-                </div>
-                <div class = 'project-link'>
-                    <p> <a href= ""> Link </a></p>
-                </div>
+                <a href = "https://github.com/graceCXY/platformGame">
+                    <div class = 'project-pic'>
+                        <img src = 'images/platform.png'>
+                    </div>
+                    <div class = 'project-title'> 
+                        <h1> Platform Game</h1>
+                    </div>
+                    <div class = 'project-content'>
+                        <p>
+                            A platform game with portals, springs, collapsing bridges, and different enemies on a personalized map.
+                        </p>
+                    </div>
+                    <div class = 'project-hidden'>
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </a>
             </div>
             <div class = "project processing game"> 
-                <div class = 'project-pic'>
-                    <img src = 'images/pong.png'>
-                </div>
-                <div class = 'project-title'> 
-                    <h1> Pong</h1>
-                </div>
-                <div class = 'project-content'>
-                    <p>
-                        Pong game built with fisica engine in Processing that makes fun animal noises when the players touch the puck.
-                    </p>
-                </div>
-                <div class = 'project-hidden'>
-                    <ul>
-                        
-                    </ul>
-                </div>
-                <div class = 'project-link'>
-                    <p> <a href= ""> Link </a></p>
-                </div>
+                <a href = "https://github.com/graceCXY/airhockey">
+                    <div class = 'project-pic'>
+                        <img src = 'images/pong.png'>
+                    </div>
+                    <div class = 'project-title'> 
+                        <h1> Pong</h1>
+                    </div>
+                    <div class = 'project-content'>
+                        <p>
+                            Pong game built with fisica engine in Processing that makes fun animal noises when the players touch the puck.
+                        </p>
+                    </div>
+                    <div class = 'project-hidden'>
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </a>
             </div>
             <div class = "project html hackathon"> 
-                <div class = 'project-pic'>
-                    <img src = 'images/softspace.png'>
-                </div>
-                <div class = 'project-title'> 
-                    <h1> a soft space (CalHacks 6.0) </h1>
-                </div>
-                <div class = 'project-content'>
-                    <p>
-                        A website providing resources for self-care. Design is a little shabby but it is my first hackathon experience :)
-                    </p>
-                </div>
-                <div class = 'project-hidden'>
-                    <ul>
-                        
-                    </ul>
-                </div>
-                <div class = 'project-link'>
-                    <p> <a href= "https://devpost.com/software/soft"> Link </a></p>
-                </div>
+                <a href= "https://devpost.com/software/soft"> 
+                    <div class = 'project-pic'>
+                        <img src = 'images/softspace.png'>
+                    </div>
+                    <div class = 'project-title'> 
+                        <h1> a soft space (CalHacks 6.0) </h1>
+                    </div>
+                    <div class = 'project-content'>
+                        <p>
+                            A website providing resources for self-care. Design is a little shabby but it is my first hackathon experience :)
+                        </p>
+                    </div>
+                    <div class = 'project-hidden'>
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </a>
             </div>
             <div class = "project processing game"> 
-                <div class = 'project-pic'>
-                    <img src = 'images/flappyPig.png'>
-                </div>
-                <div class = 'project-title'> 
-                    <h1> Flappy Pig</h1>
-                </div>
-                <div class = 'project-content'>
-                    <p>
-                        My rip-off of the game flappy bird that trended in 2017. It is the first program I've ever written!
-                    </p>
-                </div>
-                <div class = 'project-hidden'>
-                    <ul>
-                        
-                    </ul>
-                </div>
-                <div class = 'project-link'>
-                    <p> <a href= ""> Link </a></p>
-                </div>
+                <a href = "https://github.com/graceCXY/flappypig">
+                    <div class = 'project-pic'>
+                        <img src = 'images/flappyPig.png'>
+                    </div>
+                    <div class = 'project-title'> 
+                        <h1> Flappy Pig</h1>
+                    </div>
+                    <div class = 'project-content'>
+                        <p>
+                            My rip-off of the game flappy bird that trended in 2017. It is the first program I've ever written!
+                        </p>
+                    </div>
+                    <div class = 'project-hidden'>
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </a>
             </div>
         </div>
         

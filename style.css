@@ -248,7 +248,7 @@ ul {
 #transition {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(black, #FAFAfA);
+    background-image: linear-gradient(#000058, #FAFAfA);
 
 }
 #professional-pic {

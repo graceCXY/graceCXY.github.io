@@ -142,7 +142,7 @@ ul {
     animation-delay: 1s;
 }
 
-@keyframes tail {
+@-webkit-keyframes tail {
     0% {
       width: 0;
     }
@@ -157,12 +157,12 @@ ul {
       transform: rotateZ(-75deg);
     }
   }
-@keyframes shooting {
+@-webkit-keyframes shooting {
     100% {
         transform: translate(-500px, 250px);
     }
 }
-@keyframes bounce {
+@webkit-keyframes bounce {
     0% {
         transform: translateY(-500px);
     }
@@ -252,8 +252,8 @@ ul {
 }
 #professional-pic {
     margin: 2%;
-    width: 250px;
-    width: 45%;
+    /* width: 250px; */
+    width: 35%;
     height: 330px;
     animation: 1s ease-out 0s 1 slideInFromRight;
 }
@@ -276,7 +276,7 @@ ul {
 }
 #bio {
     margin: 2%;
-    width: 40%;
+    width: 55%;
     color: #585858;
     font-size: 16px;
     text-align: left;
@@ -445,6 +445,7 @@ ul {
     #professional-pic {
         margin-left: 15%;
         margin-right: 15%;
+        width: 80%;
     }
     .experience {
         margin-top: 5%;

@@ -243,7 +243,6 @@ ul {
     padding-top: 8%;
     padding-bottom: 4%; 
     background-color: #FAFAFA;
-
 }
 #transition {
     height: 50vh;
@@ -254,6 +253,7 @@ ul {
 #professional-pic {
     margin: 2%;
     width: 250px;
+    width: 45%;
     height: 330px;
     animation: 1s ease-out 0s 1 slideInFromRight;
 }
@@ -276,8 +276,7 @@ ul {
 }
 #bio {
     margin: 2%;
-    width: 60%;
-    min-width: 350px;
+    width: 40%;
     color: #585858;
     font-size: 16px;
     text-align: left;
@@ -290,38 +289,6 @@ ul {
 .bolded {
     font-weight: bolder;
     color: black;
-}
-
-@media (max-width: 700px) {
-    .toggle {
-        display: block;
-    }
-    .nav {
-        width: 100%;
-        display: none;
-        background-color: #FAFAFA;
-    }
-    .nav li {
-        display: block;
-        text-align: center;
-        color: #FAFAFA;
-    }
-    .active {
-        display: block;
-    }
-    #introduction {
-        text-align: center;
-        padding: 12%;
-        width: 80%;
-        margin: 0;
-    }
-    #bio {
-        text-align: center;
-    }
-    #professional-pic {
-        margin-left: 15%;
-        margin-right: 15%;
-    }
 }
 
 .page-title {
@@ -396,8 +363,8 @@ ul {
     padding: 1%;
     margin-top: 2%;
     margin-bottom: 2%;
-    margin-left: 18%;
-    margin-right: 18%;
+    margin-left: 15%;
+    margin-right: 15%;
     line-height: 1.3;
     color: #333333;
     box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
@@ -410,14 +377,17 @@ ul {
     transition-duration: 0.5s;
 }
 .experience-image {
-    width: 330px;
-    height: 245px;
+    /* width: 300px; */
+    width: 45%;
+    /* height: 70%; */
+    object-fit: contain;
+    /* height: 245px; */
     /* box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.4); */
 }
 
 .experience-content {
-    width: 55%;
-    min-width: 275px;
+    width: 50%;
+    /* min-width: 245px; */
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 1%;
@@ -430,6 +400,70 @@ ul {
 .v1 {
     border-right: 6px solid grey;
     width: 4%;
+}
+
+@media (max-width: 700px) {
+    .body {
+        max-width: 100%;
+    }
+    .toggle {
+        display: block;
+    }
+    .nav {
+        width: 100%;
+        display: none;
+        background-color: #FAFAFA;
+    }
+    .nav li {
+        display: block;
+        text-align: center;
+        color: #FAFAFA;
+    }
+    .active {
+        display: block;
+    }
+    #welcome-words {
+        text-align: center;
+        padding: 0%;
+        padding-top: 20%;
+        font-size: 30px;
+    }
+    #introduction {
+        text-align: center;
+        /* padding: 12%; */
+        width: 84%;
+        margin: 0;
+        margin-left: 8%;
+        margin-right: 8%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    #bio {
+        text-align: center;
+        width: 90%;
+    }
+    #professional-pic {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .experience {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
+    .experience-image {
+        width: 300px;
+        height: 245px;
+    }
+    .experience-content {
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
 }
 
 /* Project page */
